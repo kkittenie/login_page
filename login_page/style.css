@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-size: 400% 400%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: #ffffffdd;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container h3 {
+    color: #a47192;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #a47192;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #5c4a57;
+    background-color: #fef6fb;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(255, 192, 203, 0.2);
+        }
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fef6fb;
+    font-size: 14px;
+}
+
+form input:focus {
+    border-color: #eac5dd;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f6e7f1;
+    border: none;
+    color: #5c4a57;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #eac5dd;
+    transform: translateY(-2px);
+}
+
+form button {
+    padding: 12px 24px;
+    background-color: #f6e7f1;
+    border: none;
+    border-radius: 8px;
+    color: #5c4a57;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #eac5dd;
+    transform: translateY(-2px);
+}
+
+.btn {
+    width: 120px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #f6e7f1;
+    color: #5c4a57;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #eac5dd;
+    transform: translateY(-2px);
+}
+
+.message {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.success {
+    color: #4CAF50;
+}
+
+.error {
+    color: #7a143b;
+}
+
+.container a {
+    color: #a47192;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #5c4a57;
+}
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.link a {
+    color: #a47192;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link a:hover {
+    color: #5c4a57; 
+}
